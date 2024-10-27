@@ -1,0 +1,126 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Kotlin ###
+.kotlin
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+gradle-app.setting
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle*
+.gradle/cache/
+.gradle/workerMain/
+.gradle/6.7.1/taskHistory/
+gradle/wrapper/gradle-wrapper.properties
+
+# Kotlin-specific
+*.class
+*.jar
+*.war
+*.ear
+
+
+# Eclipse/STS files
+
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+.sass-cache/
+*.swo
+*.swm
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.log.*
+hs_err_pid*
+
+# Spring Boot and config
+*.env
+*.properties
+*.yml
+
+# H2 Database files
+*.db
+
+# Package Files
+
+
+# Test outputs
+test-results/
+test-output/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# JetBrains IDEs
+
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/.name
+.idea/shelf/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/kotlin.iml
+.idea/vcs.xml
+.idea/misc.xml
+
+.gradle/localGenerated
+.gradle/classes
+.gradle/test-results
